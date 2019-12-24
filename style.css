@@ -1,0 +1,59 @@
+body {
+	font-size: 0;
+	margin: 0px; 
+}
+
+.content_container {
+	display: flex;
+	
+}
+
+.tiles_place {
+	width: 640px;
+	height: 800px;
+	display: flex;
+
+}
+
+.tile {
+	width: 50px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	border: 1px solid #FFFFFF;
+}
+
+.cell {
+	border: 0.5px solid black;
+	box-sizing: border-box;
+	width: 51px;
+	height: 51px;
+	margin: -1px -1px 0 0;
+	display: inline-block;
+	letter-spacing: 0;
+}
+.row {
+	letter-spacing: 0;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.grid_container {
+	display: flex;
+	width: 640px;
+	height: 800px;
+	background-color: #D2E9EE;
+}
+.grid {
+	margin-left: 95px;
+	margin-right: 95px;
+	margin-top: 183px;
+	margin-bottom: 567px;
+	width: 450px;
+	height: 300px;
+	letter-spacing: 0;
+	font-size: 0;
+	background-blend-mode: color;
+}
+
