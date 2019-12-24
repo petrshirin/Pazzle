@@ -11,7 +11,8 @@ body {
 .tiles_place {
 	width: 640px;
 	height: 800px;
-	display: flex;
+	display: block;
+	position: relative;
 
 }
 
