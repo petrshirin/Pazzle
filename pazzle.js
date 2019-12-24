@@ -125,7 +125,7 @@ var tile_storage = new TileStorage(num_of_picture  + ".jpg");
 document.addEventListener("DOMContentLoaded", () => {
 	tile_storage.generate_tiles();
 	tile_storage.grid.create_grid();
-	document.querySelector(".grid").style.background = 'url("img/' + num_of_picture + '.jpg"), rgba(255, 255, 255, 0.8)';
+	document.querySelector(".grid").style.background = 'url("img/' + num_of_picture + '.jpg"), rgba(255, 255, 255, 0.6)';
 })
 
 
@@ -134,5 +134,5 @@ document.addEventListener("endgame", (e) => {
 	tile_storage = new TileStorage(num_of_picture  + ".jpg");
 	tile_storage.generate_tiles();
 	tile_storage.grid.create_grid();
-	document.querySelector(".grid").style.background = 'url("img/' + num_of_picture + '.jpg"), rgba(255, 255, 255, 0.8)';
+	document.querySelector(".grid").style.background = 'url("img/' + num_of_picture + '.jpg"), rgba(255, 255, 255, 0.6)';
 });
